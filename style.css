@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightslategray;
+}
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.header-container {
+  padding: 10px;
+  background-color: gray;
+  display: flex;
+  justify-content: flex-end;
+  gap: 27.5%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 40px;
+}
+
+#logo {
+  width: 125px;
+  height: 125px;
+  background-color: gray;
+}
+
+nav {
+  font-size: 20px;
+  background-color: gray;
+  padding-block: gray;
+  padding: 20px;
+  border-bottom: 20px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+nav a {
+  color: lightgray;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+  gap: 1rem;
+}
+
+img {
+  border: solid black 5px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.product-card {
+  text-align: center;
+}
+
+.product-card a {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+table {
+  font-size: 2rem;
+  border-collapse: collapse;
+  border: 2px solid black;
+  letter-spacing: 1px;
+  background-color: lightslategray;
+  font-family: sans-serif;
+}
+
+.table-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+td {
+  text-align: center;
+  border: 2px solid black;
+  padding: 5px;
+}
+
+.detail {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.product-card img {
+  width: 360px;
+  height: 240px;
+}
+
+label {
+  border: 2px solid lightgray;
+  padding: 8px;
+  margin: 5px;
+}
+
+input[name="size"]:checked + label {
+  background-color: dimgray;
+  color: white;
+}
+
+input[type="radio"] {
+  display: none;
+}
